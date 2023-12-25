@@ -800,6 +800,7 @@ input:checked + .slider:before {
   }
 
   .work_container{
+    width: 360px;
     height: 600px;
   }
 
@@ -844,11 +845,11 @@ input:checked + .slider:before {
   /*contact*/
 
   .description_footer{
-  padding-top: 40px;
+  padding-top: 65px;
   }
 
   .contact_container{
-    height: 500px;
+    height: 550px;
   }
 
   .txt_mail{
