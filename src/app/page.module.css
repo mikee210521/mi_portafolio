@@ -746,7 +746,7 @@ input:checked + .slider:before {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 390px;
+    height: 570px;
     padding: 10px 5px ;
   }
 
@@ -774,12 +774,16 @@ input:checked + .slider:before {
 
   /*about_me*/
   #about_me_container{
-    height: 350px;
+    height: 535px;
   }
 
   #about_me_txt{
     font-size: 12px;
-    line-height: 20px;
+    line-height: 25px;
+  }
+
+  .img_grid{
+    grid-template-columns: auto;
   }
 
   .picture_me{
@@ -789,15 +793,19 @@ input:checked + .slider:before {
 
   /*experiences_work*/
   #work_container_full{
-    height: 670px;
+    height: 750px;
     display: grid;
     grid-template-columns: auto ;
     gap: 9px;
   }
 
+  .work_container{
+    height: 600px;
+  }
+
   .working_experience{
-    width: 200px;
-    height: 210px;
+    width: 180px;
+    height: 230px;
     margin: 0;
   }
 
@@ -806,18 +814,13 @@ input:checked + .slider:before {
   }
 
   .description{
-    padding-bottom: 60px;
+    padding-bottom: 90px;
   }
 
   /*modal*/
   #ag_img{
     width: 90px;
     height: 100px;
-  }
-
-  .work_container{
-    width: 330px;
-    height: 510px;
   }
 
   .container_things{
@@ -833,14 +836,19 @@ input:checked + .slider:before {
   }
 
   .paragraph_content{
-    font-size: 10px;
-    width: 200px;
+    font-size: 12px;
+    width: 250px;
     margin-bottom: 5px;
   }
 
   /*contact*/
+
+  .description_footer{
+  padding-top: 40px;
+  }
+
   .contact_container{
-    height: 400px;
+    height: 500px;
   }
 
   .txt_mail{

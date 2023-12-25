@@ -1,7 +1,7 @@
 import styles from "@/app/page.module.css";
 import React from "react";
 
-export default function Agmiscelaneos({onSubmit}) {
+export default function Agmiscelaneos() {
     return(
         <div className={styles.things_work_container}>
             <h1 className={styles.interesting}>AGmiscelaneos</h1>
