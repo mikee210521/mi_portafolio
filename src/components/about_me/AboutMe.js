@@ -6,11 +6,11 @@ export default function AboutMe() {
     return(
         <div id={styles.about_me_container} className={styles.home_container}>
             <p id={styles.about_me_txt} className={styles.txt_me}>
-                I am <b className={styles.interesting}>Angel Nuñez</b>,  I like to learn new technologies and
-                tools that help me generate versatile solutions to problems.
-                With my skills I have managed to make production processes
-                efficient. <br/>I have taste and admiration for creation,
-                design and creativity to do things with the imagination.
+                I am
+                <b className={styles.interesting}> Angel Nuñez</b>
+                , passionate about creating efficient and scalable digital solutions. I enjoy building functional projects with a thoughtful user experience, combining logic, design, and best development practices.
+                <br/>
+                I am motivated by continuous learning and exploring new tools and approaches that allow me to enhance the quality, efficiency, and impact of every project.
             </p>
             <div className={styles.img_grid}>
                 <Image

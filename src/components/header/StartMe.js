@@ -9,10 +9,8 @@ export default function StarMe(){
             <p className={styles.txt_me}>
                 <b className={styles.tittle}>Hello!</b>
                 <br/> I am a
-                <b className={styles.interesting}>Web Developer </b>,
-                I like to learn new technologies,
-                I like to exercise, walk, read,
-                dance and listen to music.
+                <b className={styles.interesting}> Full-Stack Developer </b>,
+                I enjoy learning new technologies and staying active through exercise, walking, reading, dancing, and listening to music.
             </p>
             <Image
                 src={photo1}
