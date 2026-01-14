@@ -224,6 +224,40 @@ input:checked + .slider:before {
   padding-top: 20px;
 }
 
+#all_icons_position {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 12px;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.icons_tools_animation a[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #720F64;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 10;
+}
+
+
+.icons_tools_animation a[data-tooltip]:hover::after{
+    opacity: 1;
+}
+
 .icons_tools_animation a{
   position: relative;
   display: block;
@@ -401,8 +435,8 @@ input:checked + .slider:before {
 }
 
 .img_contact{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 360%;
   cursor: pointer;
 }
@@ -428,14 +462,22 @@ input:checked + .slider:before {
   font-weight: 300;
 }
 
+.icon_contact {
+    color: #444444;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
 .txt_mail{
   height: 80px;
-  font-family: var(--font-texting);
+    font-family: var(--font-texting), serif;
   color: #444444;
-  font-size: 35px;
+  font-size: 16px;
   font-weight: bolder;
   text-decoration: none;
-  margin-bottom: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .txt_mail:hover{
