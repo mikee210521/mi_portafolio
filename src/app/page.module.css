@@ -685,7 +685,7 @@ input:checked + .slider:before {
 
   /*about_me*/
   #about_me_container{
-    height: 390px;
+    height: 500px;
   }
 
   .picture_me{
@@ -706,6 +706,19 @@ input:checked + .slider:before {
     gap: 9px;
   }
 
+    .txt_info {
+        p {
+            color: #000;
+            font-size: 9px;
+            padding: 0 2rem;
+        }
+
+        img {
+            width: 110px;
+            height: 90px;
+        }
+    }
+
   .working_experience{
     margin-top: 0;
     width: 185px;
@@ -713,7 +726,10 @@ input:checked + .slider:before {
   }
 
   .name_work{
-    font-size: 22px;
+    font-size: 17px;
+      padding: 0;
+      margin: 0;
+      height: 30px;
   }
 
   /*modal*/
@@ -756,16 +772,17 @@ input:checked + .slider:before {
 
   /*contact*/
   .contact_container{
-    height: 420px;
+    height: 480px;
   }
 
   .txt_mail{
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .txt_contact{
     font-size: 15px;
     font-weight: 400;
+      padding-bottom: 1rem;
   }
 
   .img_contact{
