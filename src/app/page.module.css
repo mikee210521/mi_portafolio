@@ -14,7 +14,7 @@
 
 .interesting{
   color: #982388;
-  font-family: var(--font-tittle);
+    font-family: var(--font-tittle), serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -307,10 +307,12 @@ input:checked + .slider:before {
 
     p {
         color: #000;
-        font-size: 10px;
+        font-size: 11px;
         padding: 0 1.5rem;
         font-family: var(--font-texting), serif;
-        line-height: 1;
+        line-height: 1.4;
+        font-style: normal;
+        font-weight: lighter;
     }
 }
 
