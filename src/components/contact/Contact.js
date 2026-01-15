@@ -1,5 +1,5 @@
 import styles from '@/app/page.module.css'
-import Ellipse22 from "@/assets/Ellipse 22.png";
+import Ellipse22 from "../../../public/assets/Ellipse 22.png";
 import { IoIosMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

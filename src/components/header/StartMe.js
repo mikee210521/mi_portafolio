@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from '@/app/page.module.css'
-import  photo1 from "@/assets/photo1.png"
+import  photo1 from "../../../public/assets/photo1.png"
 
 export default function StarMe(){
 

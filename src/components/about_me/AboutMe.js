@@ -1,6 +1,6 @@
 import styles from '@/app/page.module.css'
-import photo1 from "@/assets/photo1.jpeg";
-import photo2 from "@/assets/photo2.jpeg";
+import photo1 from "../../../public/assets/photo1.jpeg";
+import photo2 from "../../../public/assets/photo2.jpeg";
 import Image from "next/image";
 export default function AboutMe() {
     return(
